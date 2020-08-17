@@ -1,6 +1,6 @@
 {
   "name": "@david18284/one-euro-filter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "One Euro Filter by Géry Casiez",
   "main": "dist/OneEuroFilter.js",
   "module": "src/OneEuroFilter.js",
@@ -30,9 +30,7 @@
   "devDependencies": {
     "mocha": "^8.1.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
-  "dependencies": {
+    "webpack-cli": "^3.3.12",
     "esm": "^3.2.25"
   }
 }
