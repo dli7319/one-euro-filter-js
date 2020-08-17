@@ -1,0 +1,38 @@
+{
+  "name": "@david18284/one-euro-filter",
+  "version": "1.0.0",
+  "description": "One Euro Filter by Géry Casiez",
+  "main": "dist/OneEuroFilter.js",
+  "module": "src/OneEuroFilter.js",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "mocha --require esm"
+  },
+  "author": "Géry Casiez",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dli7319/one-euro-filter-js.git"
+  },
+  "files": [
+    "dist",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "one-euro-filter"
+  ],
+  "bugs": {
+    "url": "https://github.com/dli7319/one-euro-filter-js/issues"
+  },
+  "homepage": "https://github.com/dli7319/one-euro-filter-js#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
