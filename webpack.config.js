@@ -1,6 +1,8 @@
-const path = require('path');
+import * as path from 'path';
+import * as url from 'url';
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
-module.exports = {
+export default {
   mode: 'production',
   entry: './src/OneEuroFilter.js',
   output: {
