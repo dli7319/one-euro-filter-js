@@ -1,5 +1,5 @@
-import { DATA } from './data';
-import { OneEuroFilter } from '../src/OneEuroFilter';
+import { DATA } from './data.js';
+import { OneEuroFilter } from '../src/OneEuroFilter.js';
 import assert from 'assert';
 
 String.prototype.rpad = function(padString, length) {

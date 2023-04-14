@@ -4,9 +4,10 @@
   "description": "One Euro Filter by Géry Casiez",
   "main": "dist/OneEuroFilter.js",
   "module": "src/OneEuroFilter.js",
+  "type": "module",
   "scripts": {
     "build": "webpack",
-    "test": "mocha --require esm"
+    "test": "mocha"
   },
   "author": "Géry Casiez",
   "license": "BSD-3-Clause",
@@ -30,7 +31,6 @@
   "devDependencies": {
     "mocha": "^10.2.0",
     "webpack": "^5.79.0",
-    "webpack-cli": "^5.0.1",
-    "esm": "^3.2.25"
+    "webpack-cli": "^5.0.1"
   }
 }
