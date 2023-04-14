@@ -5,7 +5,7 @@
   "main": "dist/OneEuroFilter.js",
   "module": "src/OneEuroFilter.js",
   "scripts": {
-    "build": "webpack -p",
+    "build": "webpack",
     "test": "mocha --require esm"
   },
   "author": "Géry Casiez",
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/dli7319/one-euro-filter-js#readme",
   "devDependencies": {
-    "mocha": "^8.1.1",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
+    "mocha": "^10.2.0",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
     "esm": "^3.2.25"
   }
 }

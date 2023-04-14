@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: './src/OneEuroFilter.js',
   output: {
     filename: 'OneEuroFilter.js',
