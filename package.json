@@ -1,6 +1,6 @@
 {
   "name": "@david18284/one-euro-filter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "One Euro Filter by Géry Casiez",
   "main": "dist/OneEuroFilter.js",
   "module": "src/OneEuroFilter.js",
